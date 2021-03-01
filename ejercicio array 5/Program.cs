@@ -16,11 +16,11 @@ namespace ejercicio_5_array
             do
             {
                 Console.Write("Ingrese el nombre numero {0}: ", cont);
-                cont += 1;
+                cont++;
                 nombre[cont] = Convert.ToString(Console.ReadLine());
             } while (nombre[cont] != "");
 
-            Console.WriteLine("\n------------------------------------");
+            Console.WriteLine("\n");
             for (cont = 0; cont < 101; cont++)
             {
                 Console.WriteLine("El nombre numero {0} ", cont + " es: " + nombre[cont]);
